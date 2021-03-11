@@ -1,0 +1,24 @@
+
+# General
+.DS_Store
+._*
+
+# Thumbnails
+._*
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+*.code-workspace
+archived_logs/
+latest_logs/
+
+
+# End of https://www.toptal.com/developers/gitignore/api/python,macos,vscode
