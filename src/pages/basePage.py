@@ -65,6 +65,13 @@ class BasePage():
             e = sys.exc_info()[0]
             print("!!! Exception: ", e)
 
+    def el_is_presented(self, locator):
+        try:
+            return WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(locator))
+        except:
+            e = sys.exc_info()[0]
+            print("!!! Exception: ", e)
+
     def el_hover(self, locator):
         try:
             element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(locator))
@@ -76,6 +83,14 @@ class BasePage():
     def el_get_title(self, title):
         try:
             WebDriverWait(self.driver, 10).until(EC.title_is(title))
+            return self.driver.title
+        except:
+            e = sys.exc_info()[0]
+            print("!!! Exception: ", e)
+
+    def el_get_title_part(self, title):
+        try:
+            WebDriverWait(self.driver, 10).until(EC.title_contains(title))
             return self.driver.title
         except:
             e = sys.exc_info()[0]
