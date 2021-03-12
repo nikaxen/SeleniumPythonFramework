@@ -13,7 +13,7 @@ git clone https://github.com/nikaxen/SeleniumPythonFramework.git
 ```sh
 pip install -r requirements.txt
 ```
-### Required pages
+### Required packages
 | Package | Description |
 | ------ | ------ |
 | selenium | [pypi/selenium](https://pypi.org/project/selenium/) |
