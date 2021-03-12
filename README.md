@@ -28,7 +28,7 @@ pip install -r requirements.txt
 2. [XPath CheetSheet](https://devhints.io/xpath)
 3. [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 4. [Python Naming Conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
-5. [https://www.kite.com/python/answers/how-to-break-a-long-line-of-code-in-python](https://www.kite.com/python/answers/how-to-break-a-long-line-of-code-in-python)
+5. [Break a long line of code in Python](https://www.kite.com/python/answers/how-to-break-a-long-line-of-code-in-python)
 6. [autopep8](https://pypi.org/project/autopep8/)
 
 ### Example of using autopep8
