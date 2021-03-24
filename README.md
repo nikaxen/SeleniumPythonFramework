@@ -2,7 +2,7 @@
 
 ## Requirements
 1. [VSCode](https://code.visualstudio.com)
-2. [Python 3](https://www.python.org/downloads/) or later
+2. [Python 3.9.1](https://www.python.org/downloads/) or later
 
 ## Installation
 1. Clone the project
