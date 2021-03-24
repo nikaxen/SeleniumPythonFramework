@@ -16,5 +16,4 @@ class Config():
         else:
             raise Exception("driver '{}' not found".format(driver_name))
         driver.implicitly_wait(5)
-        driver.maximize_window()
         return driver

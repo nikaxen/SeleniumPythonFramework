@@ -160,3 +160,15 @@ class BasePage():
         except BaseException:
             e = sys.exc_info()[0]
             print("!!! Exception: ", e)
+
+    def getTableRow(self, locator, rowIndex, colIndex):
+        """
+        Read data from a Table using specific row and column index
+        """
+        try:
+            tablerows = el_is_presented(locator).find_elements_by_tag_name('tr')
+            tableDefinitons = tablerows[rowIndex+1].find_elements_by_tag_name('td')
+            return tableDefinitons[colIndex].get_attribute('innerText')
+        except BaseException:
+            e = sys.exc_info()[0]
+            print("!!! Exception: ", e)
