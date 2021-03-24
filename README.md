@@ -33,5 +33,5 @@ pip install -r requirements.txt
 
 ### Example of using autopep8
 ```sh
-autopep8 --in-place --aggressive basePage.py
+autopep8 --in-place --aggressive <path_to_file>
 ```
