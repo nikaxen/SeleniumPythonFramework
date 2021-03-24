@@ -4,7 +4,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 class Config():
 
-    BASE_URL = "https://www.google.com"
+    BASE_URL = "https://www.ck12.org"
 
     def getDriver(self, driver_name):
         if driver_name == "chrome":
@@ -16,5 +16,4 @@ class Config():
         else:
             raise Exception("driver '{}' not found".format(driver_name))
         driver.implicitly_wait(5)
-        driver.maximize_window()
         return driver
