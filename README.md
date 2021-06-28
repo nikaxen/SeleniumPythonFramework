@@ -7,7 +7,7 @@
 ## Installation
 1. Clone the project
 ```sh
-git clone https://github.com/nikaxen/SeleniumPythonFramework.git
+git clone https://github.com/nikaxen/selenium-webdriver-python.git
 ```
 2. Install the required packages
 ```sh
